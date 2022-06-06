@@ -28,12 +28,11 @@ nav {
 
 /* jumbotron */
 
-.jumbotron {
-   background-color:cadetblue
+.jumbotron {
+   background-color: cadetblue;
+   padding-top: 17em;
+   padding-bottom: 5em;
 }
-
-
-
 
 
 /****************
