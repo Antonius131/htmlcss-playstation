@@ -25,6 +25,72 @@ nav {
    margin-top: 40px;
 }
 
+.ms_drop_menu.show,
+ul.dropdown-menu.ms_myps_drop.show  {
+   top: 55px;
+   left: -78px;
+   width: 100vw;
+   border: none;
+   border-radius: 0px;
+   text-align: center;
+}
+
+.ms_hardware.show {
+   left: -158px;
+}
+
+.ms_servizi.show {
+   left: -261px;
+}
+
+.ms_novità.show {
+   left: -344px;
+}
+
+.ms_acquisti.show {
+   left: -424px;
+}
+
+.ms_supporto.show {
+   left: -540px;
+}
+
+.ms_drop_menu li {
+   display: inline-block;
+}
+
+.primary_item img {
+   height: 90px;
+}
+
+li.ms_divider,
+.primary_item_txt {
+   display: block;
+}
+
+li.ms_divider {
+   width: 100vw;
+}
+
+.secondary_item::before {
+   content: '●';
+   color: blue;
+   font-size: 6px;
+   margin-right: 9px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+ul.dropdown-menu.ms_myps_drop.show {
+   left: -1191px;
+}
+
+ul.dropdown-menu.ms_myps_drop.show li {
+   display: inline-block;
+}
+
+
+
 
 /* jumbotron */
 
@@ -33,6 +99,14 @@ nav {
    padding-top: 17em;
    padding-bottom: 5em;
 }
+
+
+
+
+
+
+
+
 
 
 /****************
