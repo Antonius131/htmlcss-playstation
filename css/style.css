@@ -104,7 +104,7 @@ ul.dropdown-menu.ms_myps_drop.show li {
 
 .jumbotron img,
 .it_takes_two img,
-.ps_plus .ps_plus_logo {
+.explore_service .ps_plus_logo {
    width: 60%;
 }
 
@@ -161,6 +161,13 @@ h6 {
 
 .ps_plus a {
    color: #2D64E6;
+}
+
+
+/* ps now */
+
+.ps_now {
+   background-color: #161C3B;
 }
 
 
