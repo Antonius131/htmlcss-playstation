@@ -94,22 +94,8 @@ ul.dropdown-menu.ms_myps_drop.show li {
 /* jumbotron */
 
 .jumbotron {
-   background-color: cadetblue;
    padding-top: 17em;
    padding-bottom: 5em;
-}
-
-
-
-
-
-
-
-/****************
-      MAIN
-****************/
-
-.jumbotron {
    background-image: url(../img/jumbo-bg.png);
    background-size: cover;
    background-position: center;
@@ -120,6 +106,16 @@ ul.dropdown-menu.ms_myps_drop.show li {
    width: 60%;
 }
 
+
+
+
+
+
+
+
+/****************
+      MAIN
+****************/
 
 
 
