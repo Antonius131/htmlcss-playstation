@@ -24,6 +24,12 @@
 nav {
    margin-top: 40px;
 }
+/* 
+a#navbarDropdown::after {
+   content: '\f107';
+   font-family: 'Font Awesome 6 Free';
+   font-weight: 900;
+} */
 
 .ms_drop_menu.show,
 ul.dropdown-menu.ms_myps_drop.show  {
@@ -176,3 +182,28 @@ h6 {
 /****************
       FOOTER
 ****************/
+
+footer {
+   background-color: #00439C;
+}
+
+footer ul {
+   list-style: none;
+}
+
+.play_logo {
+   height: 120px;
+   filter: hue-rotate(45deg) brightness(5.5);
+}
+
+.ms_country::before {
+   content: '\f0ac';
+   font-family: 'Font Awesome 6 Free';
+   font-weight: 900;
+   margin-right: 12px;
+}
+
+.sie_logo {
+   height: 50px;
+}
+
