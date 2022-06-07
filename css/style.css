@@ -126,6 +126,27 @@ h6 {
 }
 
 
+/* accessories */
+
+.ms_accessories .active {
+   border-bottom: 2px solid #2D64E6;
+}
+
+.ms_accessories img {
+   width: 60%;
+}
+
+.opacity_thumb {
+   opacity: 0.5;
+}
+
+.opacity_thumb:hover {
+   opacity: 1;
+   border-bottom: 2px solid #2D64E6;
+}
+
+
+
 
 
 /****************
