@@ -103,7 +103,8 @@ ul.dropdown-menu.ms_myps_drop.show li {
 }
 
 .jumbotron img,
-.it_takes_two img {
+.it_takes_two img,
+.ps_plus .ps_plus_logo {
    width: 60%;
 }
 
@@ -152,7 +153,15 @@ h6 {
 }
 
 
-/* new arrivals */
+/* ps plus */
+
+.ps_plus {
+   background-color: #BEBCBB;
+}
+
+.ps_plus a {
+   color: #2D64E6;
+}
 
 
 
