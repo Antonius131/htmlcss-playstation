@@ -91,7 +91,6 @@ ul.dropdown-menu.ms_myps_drop.show li {
 
 
 
-
 /* jumbotron */
 
 .jumbotron {
@@ -106,12 +105,20 @@ ul.dropdown-menu.ms_myps_drop.show li {
 
 
 
-
-
-
 /****************
       MAIN
 ****************/
+
+.jumbotron {
+   background-image: url(../img/jumbo-bg.png);
+   background-size: cover;
+   background-position: center;
+   margin-top: 116px;
+}
+
+.jumbotron img {
+   width: 60%;
+}
 
 
 
