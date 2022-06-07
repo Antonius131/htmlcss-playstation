@@ -102,7 +102,8 @@ ul.dropdown-menu.ms_myps_drop.show li {
    margin-top: 116px;
 }
 
-.jumbotron img {
+.jumbotron img,
+.it_takes_two img {
    width: 60%;
 }
 
@@ -132,10 +133,6 @@ h6 {
    border-bottom: 2px solid #2D64E6;
 }
 
-.ms_accessories img {
-   width: 60%;
-}
-
 .opacity_thumb {
    opacity: 0.5;
 }
@@ -143,6 +140,15 @@ h6 {
 .opacity_thumb:hover {
    opacity: 1;
    border-bottom: 2px solid #2D64E6;
+}
+
+
+/* it takes two */
+
+.it_takes_two {
+   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+   background-size: cover;
+   background-position: center;
 }
 
 
