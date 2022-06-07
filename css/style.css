@@ -74,7 +74,7 @@ li.ms_divider {
 
 .secondary_item::before {
    content: '●';
-   color: blue;
+   color: #2D64E6;
    font-size: 6px;
    margin-right: 9px;
    display: inline-block;
@@ -117,7 +117,13 @@ ul.dropdown-menu.ms_myps_drop.show li {
       MAIN
 ****************/
 
+h6 {
+   color: #2D64E6;
+}
 
+.grey-text {
+   color: #737373;
+}
 
 
 
