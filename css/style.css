@@ -1,11 +1,3 @@
-.ingombri {
-   height: 200px;
-   background-color: antiquewhite;
-}
-
-
-
-
 /****************
       HEADER
 ****************/
@@ -24,41 +16,41 @@
 nav {
    margin-top: 40px;
 }
-/* 
-a#navbarDropdown::after {
-   content: '\f107';
-   font-family: 'Font Awesome 6 Free';
+
+.login_button {
+   display: inline-block;
+}
+
+
+a#navbarDropdown::after,
+.nav-link.dropdown-toggle.show::after {
+   font-family: "Font Awesome 6 Free";
    font-weight: 900;
-} */
+   display: inline-block;
+   border: 0;
+   vertical-align: middle;
+   font-size: 10px;
+}
+
+a#navbarDropdown::after {
+   content: "\f107";
+}
+
+.nav-link.dropdown-toggle.show::after {
+   content: "\f106";
+}
+
+li.nav-item.dropdown {
+   position: static;
+}
 
 .ms_drop_menu.show,
 ul.dropdown-menu.ms_myps_drop.show  {
    top: 55px;
-   left: -78px;
-   width: 100vw;
+   width: 100%;
    border: none;
    border-radius: 0px;
    text-align: center;
-}
-
-.ms_hardware.show {
-   left: -158px;
-}
-
-.ms_servizi.show {
-   left: -261px;
-}
-
-.ms_novità.show {
-   left: -344px;
-}
-
-.ms_acquisti.show {
-   left: -424px;
-}
-
-.ms_supporto.show {
-   left: -540px;
 }
 
 .ms_drop_menu li {
@@ -85,10 +77,6 @@ li.ms_divider {
    margin-right: 9px;
    display: inline-block;
    vertical-align: middle;
-}
-
-ul.dropdown-menu.ms_myps_drop.show {
-   left: -1191px;
 }
 
 ul.dropdown-menu.ms_myps_drop.show li {
