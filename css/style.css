@@ -22,7 +22,7 @@ nav {
 }
 
 
-a#navbarDropdown::after,
+.nav-link.dropdown-toggle::after,
 .nav-link.dropdown-toggle.show::after {
    font-family: "Font Awesome 6 Free";
    font-weight: 900;
@@ -32,7 +32,7 @@ a#navbarDropdown::after,
    font-size: 10px;
 }
 
-a#navbarDropdown::after {
+.nav-link.dropdown-toggle::after {
    content: "\f107";
 }
 
