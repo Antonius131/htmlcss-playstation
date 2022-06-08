@@ -182,8 +182,10 @@ h6 {
 }
 
 .game_list_item:hover {
-   bottom: 9px;
+   transform: translate(0,-12px);
+   transition: transform 0.3s linear;
 }
+
 
 
 /* accessories */
